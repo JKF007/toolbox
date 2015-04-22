@@ -44,11 +44,33 @@ void getDivisorsTest1(){
 
 };
 
+void getDivisorsTest2(){
+
+    vector <int> divisors ;
+    getDivisors(49, divisors);
+
+    vector <int> answer;
+
+    answer.push_back(1);
+    answer.push_back(7);
+    answer.push_back(49);
+
+    if( compareVectors(divisors, answer) ){
+        cout<< " getDivisorsTest1() test 2 passed\n";
+    }
+    else{
+        cout<< " getDivisorsTest1() test 2 failed\n";
+    }
+
+};
+
 int main(){
 
     removeCharTest1();
 
     getDivisorsTest1();
+
+    getDivisorsTest2();
 
 };
 
