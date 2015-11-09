@@ -25,4 +25,6 @@ void getDivisors(const int& input, vector <int> &container );
 
 bool compareVectors(const vector <int> &first, const vector <int> &second);
 
+int vectorSearch(const std::string& input, std::vector <std::string> &container);
+
 #endif

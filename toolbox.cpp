@@ -111,3 +111,16 @@
         return true;
     };
 
+    int vectorSearch(const string& input, std::vector <string> &container){
+
+        for (int index = 0; index < container.size(); index ++){
+            string item = container.at(index);
+            if (input.compare(item) ==0){
+                return index;
+            }
+
+        }
+        return -1;
+    };
+
+
