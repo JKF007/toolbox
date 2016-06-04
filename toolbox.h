@@ -19,7 +19,7 @@ bool isNumeric(const string& input);
 
 bool checkRange(const string& input, int min, int max);
 
-int string_tokenizer (const string& input, vector <string> &container , const char& delimiter);
+int string_tokenizer (const string& input, vector <string> &container , const char& delimiter = ' ');
 
 void getDivisors(const int& input, vector <int> &container );
 
